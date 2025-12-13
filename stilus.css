@@ -1,0 +1,59 @@
+body{
+    background-color: rgb(216, 184, 153);
+    
+}
+#tarolo{
+    background-color: sandybrown;
+    color: antiquewhite;
+    width: 80%;
+    max-width: 800px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 15px
+}
+
+#menu a{
+    text-decoration: none;
+    color: rgba(255, 253, 253, 0.781);
+    background-color: rgb(211, 172, 122);
+    border: 2px solid rgba(0, 0, 0, 0.26);
+    padding: 5px 10px 5px 10px;
+    margin: 10px;
+    border-radius: 15px;
+}
+#menu a:hover{
+    color : rgb(100, 95, 95);
+    background-color: rgb(124, 122, 120);
+}
+
+#tartalom {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #ffb774c5;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+h1, h2, h3 {
+    color: #615b5298  ;
+}
+
+p {
+    color: #ffdcaa;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+footer a:hover {
+  color: #ad1457;
+  transform: scale(1.2);
+  transition: 0.3s;
+  animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.2); }
+  100% { transform: scale(1); }
+}
