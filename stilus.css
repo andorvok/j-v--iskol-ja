@@ -1,10 +1,12 @@
 body{
-    background-color: rgb(216, 184, 153);
+    background-color: rgba(58, 48, 38, 0.555);
+    background-image: url(kepek/szamalk1.jpg);
+    background-size: 100%;
     
 }
 #tarolo{
-    background-color: sandybrown;
-    color: antiquewhite;
+    background-color: rgb(104, 104, 104);
+    color: rgb(179, 168, 154);
     width: 80%;
     max-width: 800px;
     margin: auto;
@@ -14,9 +16,9 @@ body{
 
 #menu a{
     text-decoration: none;
-    color: rgba(255, 253, 253, 0.781);
-    background-color: rgb(211, 172, 122);
-    border: 2px solid rgba(0, 0, 0, 0.26);
+    color: rgba(255, 253, 253, 0.603);
+    background-color: rgba(172, 155, 133, 0.863);
+    border: 2px solid rgba(0, 0, 0, 0.863);
     padding: 5px 10px 5px 10px;
     margin: 10px;
     border-radius: 15px;
@@ -30,18 +32,19 @@ body{
   max-width: 800px;
   margin: 0 auto;
   padding: 30px;
-  background-color: #ffb774c5;
+  background-color: #463e38e3;
   border-radius: 12px;
   box-shadow: 0 0 15px rgba(0,0,0,0.1);
   font-family: 'Segoe UI', sans-serif;
 }
 
 h1, h2, h3 {
-    color: #615b5298  ;
+    color: #8f8f8d  ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 p {
-    color: #ffdcaa;
+    color: #ffdcaaa8;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
